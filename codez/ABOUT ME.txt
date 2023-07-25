@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+<h1>
+    "About Me"
+</h1> 
+<body style="text-align: center;">
+    <h2>
+<p>Jimenez, Mark Angelo G.</p>
+<p>Tebeng RD. Caranglaas dist. Dagupan City</p>
+<p>09469519483</p>
+<p>Angelo Jimenez</p>
+<p>mage.jimenez.up@phinmaed.com</p>
+<p>Life is short, live life to the fullest</p>
+
+
+</h2>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2? family-Poppins: wght@300;400; 500; 600; 700; 800;900& display swap'
+);
+
+.about {
+    position: relative;
+    height: 200%;
+    background: #000000;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 125px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: aqua;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/PORTFOLIO%20V2.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Portfolio about my self</title>
+    <link rel="stylesheet" href="./BAKIT TAYO NAG COCODE_files/style.css">
+    <link href="./BAKIT TAYO NAG COCODE_files/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#" class="logo">Gelo.</a>
+
+        <nav class="navbar">
+            <a nav="" href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#" class="active">Home</a>
+            <a nav="" href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#">About</a>
+            <a nav="" href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#">Services</a>
+            <a nav="" href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#">Portfolio</a>
+            <a nav="" href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>
+                I'm Angelo Jimenez
+            </h1>
+            <h2>Graphic Designer</h2>
+            <p>I am UI/UX Designer from The Philippines.</p>
+            <div class="btn-box">
+                <a href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#">Let's be mutual</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#"><i class="bx bxl-facebook"></i></a>
+            <a href="http://127.0.0.1:5500/PORTFOLIO%20V2.html#"><i class="bx bxl-instagram"></i></a>
+        </div>
+
+        <span class="home-imgHover">
+
+        </span>
+    </section>
+
+        
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
